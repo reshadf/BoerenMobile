@@ -73,15 +73,34 @@ table {
 
 	#main 
 	{
-		
-		width: 420px;
-		margin-top: 40px;
+		position: fixed;
+		margin-top: 30px;
+		width: 1025px;
+		height: 625px;
+	}
+
+	#main p, h1, h2, h3, h4, h5, h6
+	{
+		margin-left: 20px;
 	}
 
 	#main p
 	{
-		
-		padding-left: 5px;
+		margin-top: 20px;
+		margin-left: 20px;
+		width: 400px;
+	}
+
+	#main p:nth-last-child(1)
+	{
+		margin-bottom: 40px;
+	}
+
+	#main img
+	{
+		margin: 0 auto;
+		margin-top: -10px;
+		position: relative;
 	}
 
 	.navigationland a
@@ -105,7 +124,7 @@ table {
 
 	.navigationland li:nth-child(1)
 	{
-		margin-left: 35px;
+		margin-left: 100px;
 		border: none;
 	}
 
@@ -114,7 +133,51 @@ table {
 		display: none;
 		margin-left: 15px;
 	}
-}
+
+	.block
+	{
+		position:relative;
+	    height:625px;
+	    color:#292929;
+	    background:white;
+	    margin-bottom:25px; 
+	}
+
+	/*specific content images*/
+	img.content
+	{
+	    border:solid 2px white;
+	    width: 1025px;
+	}
+
+	img.float
+	{
+	    padding:10px 15px 10px 15px;
+	    margin:0px;
+	}
+
+	img.left
+	{
+	    float:left;
+	    margin-right:15px;
+	}
+
+	img.right
+	{
+	    float:right;
+	    margin-left:15px;
+	}
+
+	img.top
+	{
+	    padding-bottom:15px;
+	}
+
+	img.bottom
+	{
+	    padding-top:15px;
+	}
+} /* end landscape dont remove */
 /*
 +---------------------------+
 |                           |
@@ -128,11 +191,26 @@ table {
 @media only screen and (orientation:portrait){
    /* portrait styles here */
 
+   footer .navigationport li
+   {
+   		display:none;
+   }
 
 	#main 
 	{
-		margin-left: 60px;
-		width: 620px;
+		width: 840px;
+	}
+
+	#main p, h1, h2, h3, h4, h5
+	{
+		margin-left: 70px;
+	}
+
+	#main p
+	{
+		padding-bottom: 20px;
+		width: 400px;
+		margin-left: 70px;
 	}
 
 	.navigationport a
@@ -157,6 +235,41 @@ table {
 	.navigationport li:nth-last-child(1)
 	{
 		margin-left: 245px;
+	}
+
+	/*specific content images*/
+	img.content
+	{
+	    border:solid 2px white;
+	    width: 840px;
+	}
+
+	img.float
+	{
+	    padding:10px 15px 10px 15px;
+	    margin:0px;
+	}
+
+	img.left
+	{
+	    float:left;
+	    margin-right:15px;
+	}
+
+	img.right
+	{
+	    float:right;
+	    margin-left:5px;
+	}
+
+	img.top
+	{
+	    padding-bottom:15px;
+	}
+
+	img.bottom
+	{
+	    padding-top:15px;
 	}
 }
 
