@@ -103,11 +103,16 @@ table {
 		position: relative;
 	}
 
+	.navigationland ul
+	{
+		width: 768px;
+		margin: 0 auto;
+	}
+
 	.navigationland a
 	{
 		color: #fff;
 		text-decoration: none;
-		border-radius: 15px;
 		text-align: center;
 	}
 
@@ -124,13 +129,11 @@ table {
 
 	.navigationland li:nth-child(1)
 	{
-		margin-left: 100px;
 		border: none;
 	}
 
 	.navigationland li:nth-last-child(1)
 	{
-		display: none;
 		margin-left: 15px;
 	}
 
@@ -178,6 +181,139 @@ table {
 	{
 	    padding-top:15px;
 	}
+
+	.filter
+	{
+		right: 10px;
+		padding: 10px;
+		position: absolute;
+	}
+
+	.filter select
+	{
+		display: block;
+		margin-top: 15px;
+	}
+
+	.filter legend
+	{
+		margin-top: 10px;
+	}
+
+	.filter legend:nth-child(1)
+	{
+		margin-top: 5px;
+	}
+
+	.filter h2
+	{
+		padding: 5px;
+	}
+
+	.boerenmap
+	{
+		height: 600px;
+		position: absolute;
+	}
+
+	.boerderijen
+	{
+		position: absolute;
+		left: 10px;
+		top: 20px;
+	}
+
+	.boerderijen ul
+	{
+		margin-left: 20px;
+		margin-top: 10px;
+	}
+
+	.search
+	{
+		width: 220px;
+		position: absolute;
+		right: 0px;
+	}
+
+	.search input[type="checkbox"]
+	{
+		width: 20px;
+		height: 20px;
+	}
+
+	.search li
+	{
+		padding: 4px;
+	}
+
+	.omschrijving
+	{
+		position: absolute;
+		left: 250px;
+		top: 195px;
+	}
+
+	.omschrijving h1
+	{
+		margin: 5px;
+	}
+
+	.farmbox
+	{
+		height: 300px;
+		width: 520px;
+		border: 2px #4C7622 solid;
+	}
+
+	.farmbox h3
+	{
+		padding: 2px;
+		margin-top: 2px;
+		font: bold 20pt "Helvetica", Helvetica;
+		color: #4C7622;
+	}
+
+	.farmbox small
+	{
+		margin-left: 25px;
+		position: absolute;
+	}
+
+	.farmbox img
+	{
+		width: auto;
+		height: 200px;
+		position: absolute;
+		left: 20px;
+		top: 45px;
+		border: 2px #4C7622 solid;
+	}
+
+	.farmbox ul
+	{
+		position: absolute;
+		right: 40px;
+		top: 70px;
+	}
+
+	.farmbox li
+	{
+		list-style:circle inside;
+	}
+
+	.farmbox input[type=submit]
+	{
+		position: absolute;
+		right: 15px;
+		bottom: 21px;
+		background-color: #4C7622;
+		color: #fff;
+		padding: 2px 5px 2px 5px;
+	}
+
+
+
 } /* end landscape dont remove */
 /*
 +---------------------------+

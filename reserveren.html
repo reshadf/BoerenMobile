@@ -1,0 +1,406 @@
+<!doctype html>
+<!-- Conditional comment for mobile ie7 blogs.msdn.com/b/iemobile/ -->
+<!--[if IEMobile 7 ]>    <html class="no-js iem7" lang="nl"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js" lang="nl"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+
+  <title></title>
+  <meta name="description" content="">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"> 
+
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="img/l/apple-touch-icon.png">
+
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+  <!-- <script>(function(){var a;if(navigator.platform==="iPad"){a=window.orientation!==90||window.orientation===-90?"img/startup-tablet-landscape.png":"img/startup-tablet-portrait.png"}else{a=window.devicePixelRatio===2?"img/startup-retina.png":"img/startup.png"}document.write('<link rel="apple-touch-startup-image" href="'+a+'"/>')})()</script> -->
+  
+  <!-- <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script> -->
+  
+  <meta http-equiv="cleartype" content="on">
+
+  <link rel="stylesheet" href="css/style.css">
+  
+  <link media="only screen and (max-device-width: 768px)" href="css/design.css" type="text/css" rel="stylesheet" />
+
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+      <nav class="navigationport navigationland">
+        <ul>
+          <li><a href="index.html">Het Betere BoerenBed</a></li>
+          <li><a href="verblijf.html">'t Verblijf</a></li>
+          <li><a href="">Op de boerderij</a></li>
+          <li><a href="">Ander leuks</a></li>
+          <li><a href="">Onze boerderijen</a></li>
+          <li><a href="reserveren.html">Reserveren</a></li>
+          <li><img src="img/boerenbed-logo.png"></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="main" role="main">
+      <div class="swipe" id="slider3">
+        <ul>
+            <li>
+              <div class="block">
+                <!--<img class="boerenmap" src="img/boerenbed-map.png">-->
+                
+                <section class="boerderijen">
+                  <h2>Kies jou boerderij om te reserveren</h2>
+                  <ul>
+                    <li>Stal Barbazan(1)</li>
+                    <li>Landgoed Volenbeek(2)</li>
+                    <li>De lange Weide(3)</li>
+                    <li>Hoeve de Pippert(4)</li>
+                    <li>Hoeve Draafsel(5)</li>
+                  </ul>
+                </section>
+
+                <section class="omschrijving">
+                  <h1>Boerderij omschrijving</h1>
+                  <div class="farmbox">
+                    <h3>Stal Barbazan</h3>
+                    <small>Ardennen, Mormont</small>
+                    <img src="img/stal-barbazan.jpg">
+                    <ul>
+                      <li>Schaapjes</li>
+                      <li>Paarden</li>
+                      <li>Huisdieren toegestaan</li>
+                      <li>Bij het bos</li>
+                    </ul>
+                    <input type="submit" value="Prijzen en Beschikbaarheid">
+                  </div>
+                </section>
+
+                <div class="clear"></div>
+
+                <section class="search">
+                  <form method="GET">
+                    <h2>Op de Boerderij</h2>
+                    <ul>
+                        
+                            <li>
+                                <hr/>
+                                <ul>
+                                <li>
+                                    <input  id="pets-allowed" onclick="submit();"  type="checkbox" name="animals[]" value="pets-allowed"/>
+                                    <label  for="pets-allowed">Huisdieren toegestaan (15)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="dairy-farm" onclick="submit();"  type="checkbox" name="animals[]" value="dairy-farm"/>
+                                    <label  for="dairy-farm">Melkvee boerderij (9)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="horses" onclick="submit();"  type="checkbox" name="animals[]" value="horses"/>
+                                    <label  for="horses">Paarden (12)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="sheep" onclick="submit();"  type="checkbox" name="animals[]" value="sheep"/>
+                                    <label  for="sheep">Schaapjes (4)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="private-bunny" onclick="submit();"  type="checkbox" name="animals[]" value="private-bunny"/>
+                                    <label  for="private-bunny">Privé konijntjes (7)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="goats" onclick="submit();"  type="checkbox" name="animals[]" value="goats"/>
+                                    <label  for="goats">Geitjes (1)</label>
+                                </li></ul>
+                            </li>
+
+                            <li>
+                                <hr/>
+                                <ul>
+                                <li>
+                                    <input  id="hot-tub" onclick="submit();"  type="checkbox" name="facilities[]" value="hot-tub"/>
+                                    <label  for="hot-tub">Hot tub (8)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="breakfast-basket" onclick="submit();"  type="checkbox" name="facilities[]" value="breakfast-basket"/>
+                                    <label  for="breakfast-basket">Ontbijtmand (6)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="groups" onclick="submit();"  type="checkbox" name="facilities[]" value="groups"/>
+                                    <label  for="groups">Faciliteiten voor groepen (5)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="organic-farm" onclick="submit();"  type="checkbox" name="facilities[]" value="organic-farm"/>
+                                    <label  for="organic-farm">Organische boerderij (3)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="beds" onclick="submit();"  type="checkbox" name="facilities[]" value="beds"/>
+                                    <label  for="beds">Een warm onthaal (6)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="tractor-rides" onclick="submit();"  type="checkbox" name="facilities[]" value="tractor-rides"/>
+                                    <label  for="tractor-rides">Trekkertochten (3)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="cuddle-barn" onclick="submit();"  type="checkbox" name="facilities[]" value="cuddle-barn"/>
+                                    <label  for="cuddle-barn">Knuffelschuur (8)</label>
+                                </li></ul>
+                            </li>
+
+                            <li>
+                                <hr/>
+                                <ul>
+                                <li>
+                                    <input  id="woodland" onclick="submit();"  type="checkbox" name="location[]" value="woodland"/>
+                                    <label  for="woodland">Bij het bos (6)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="river" onclick="submit();"  type="checkbox" name="location[]" value="river"/>
+                                    <label  for="river">In de buurt van een rivier (4)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="view" onclick="submit();"  type="checkbox" name="location[]" value="view"/>
+                                    <label  for="view">Met een weids uitzicht (6)</label>
+                                </li>
+
+                                <li>
+                                    <input  id="coast" onclick="submit();"  type="checkbox" name="location[]" value="coast"/>
+                                    <label  for="coast">In de buurt van de kust (3)</label>
+                                </li></ul>
+                            </li>
+                    </ul>
+                  </form>
+                        
+                </section>
+
+
+                <!-- <form method="post" class="filter">
+                  <legend><h2>Op de Boerderij</h2></legend>
+                  <fieldset>
+                    <select>
+                    <optgroup label="Dieren">
+                      <option value="" disabled="disabled">filter op..</option>
+                      <option value="">Huisdieren toegestaan</option>
+                      <option value="">Melkvee Boerderij</option>
+                      <option value="">Paarden</option>
+                      <option value="">Schaapjes</option>
+                      <option value="">Prive Konijn</option>
+                      <option value="">Geitjes</option>
+                    </optgroup>
+                    <optgroup label="Faciliteiten">
+                      <option value="">Hot Tub</option>
+                      <option value="">Ontbijtmand</option>
+                      <option value="">Faciliteiten voor groepen</option>
+                      <option value="">Organische boerderij</option>
+                      <option value="">Een warm onthaal</option>
+                      <option value="">Trekkertochten</option>
+                      <option value="">knuffelschuur</option>
+                    <optgroup label="omgeving">
+                      <option value="">Bij het bos</option>
+                      <option value="">In de buurt van een rivier</option>
+                      <option value="">Met een weids uitzicht</option>
+                      <option value="">In de buurt van de kust</option>
+                    </optgroup>
+                  </select>
+                  </fieldset>
+                  <fieldset>
+                    <select>
+                    <optgroup label="Dieren">
+                      <option value="" disabled="disabled">filter op..</option>
+                      <option value="">Huisdieren toegestaan</option>
+                      <option value="">Melkvee Boerderij</option>
+                      <option value="">Paarden</option>
+                      <option value="">Schaapjes</option>
+                      <option value="">Prive Konijn</option>
+                      <option value="">Geitjes</option>
+                    </optgroup>
+                    <optgroup label="Faciliteiten">
+                      <option value="">Hot Tub</option>
+                      <option value="">Ontbijtmand</option>
+                      <option value="">Faciliteiten voor groepen</option>
+                      <option value="">Organische boerderij</option>
+                      <option value="">Een warm onthaal</option>
+                      <option value="">Trekkertochten</option>
+                      <option value="">knuffelschuur</option>
+                    <optgroup label="omgeving">
+                      <option value="">Bij het bos</option>
+                      <option value="">In de buurt van een rivier</option>
+                      <option value="">Met een weids uitzicht</option>
+                      <option value="">In de buurt van de kust</option>
+                    </optgroup>
+                  </select>
+                  </fieldset>
+                  <fieldset>
+                    <select>
+                    <optgroup label="Dieren">
+                      <option value="" disabled="disabled">filter op..</option>
+                      <option value="">Huisdieren toegestaan</option>
+                      <option value="">Melkvee Boerderij</option>
+                      <option value="">Paarden</option>
+                      <option value="">Schaapjes</option>
+                      <option value="">Prive Konijn</option>
+                      <option value="">Geitjes</option>
+                    </optgroup>
+                    <optgroup label="Faciliteiten">
+                      <option value="">Hot Tub</option>
+                      <option value="">Ontbijtmand</option>
+                      <option value="">Faciliteiten voor groepen</option>
+                      <option value="">Organische boerderij</option>
+                      <option value="">Een warm onthaal</option>
+                      <option value="">Trekkertochten</option>
+                      <option value="">knuffelschuur</option>
+                    <optgroup label="omgeving">
+                      <option value="">Bij het bos</option>
+                      <option value="">In de buurt van een rivier</option>
+                      <option value="">Met een weids uitzicht</option>
+                      <option value="">In de buurt van de kust</option>
+                    </optgroup>
+                  </select>
+                  </fieldset>
+                  <fieldset>
+                    <select>
+                    <optgroup label="Dieren">
+                      <option value="" disabled="disabled">filter op..</option>
+                      <option value="">Huisdieren toegestaan</option>
+                      <option value="">Melkvee Boerderij</option>
+                      <option value="">Paarden</option>
+                      <option value="">Schaapjes</option>
+                      <option value="">Prive Konijn</option>
+                      <option value="">Geitjes</option>
+                    </optgroup>
+                    <optgroup label="Faciliteiten">
+                      <option value="">Hot Tub</option>
+                      <option value="">Ontbijtmand</option>
+                      <option value="">Faciliteiten voor groepen</option>
+                      <option value="">Organische boerderij</option>
+                      <option value="">Een warm onthaal</option>
+                      <option value="">Trekkertochten</option>
+                      <option value="">knuffelschuur</option>
+                    <optgroup label="omgeving">
+                      <option value="">Bij het bos</option>
+                      <option value="">In de buurt van een rivier</option>
+                      <option value="">Met een weids uitzicht</option>
+                      <option value="">In de buurt van de kust</option>
+                    </optgroup>
+                  </select>
+                  </fieldset>
+                  <fieldset>
+                    <select>
+                    <optgroup label="Dieren">
+                      <option value="" disabled="disabled">filter op..</option>
+                      <option value="">Huisdieren toegestaan</option>
+                      <option value="">Melkvee Boerderij</option>
+                      <option value="">Paarden</option>
+                      <option value="">Schaapjes</option>
+                      <option value="">Prive Konijn</option>
+                      <option value="">Geitjes</option>
+                    </optgroup>
+                    <optgroup label="Faciliteiten">
+                      <option value="">Hot Tub</option>
+                      <option value="">Ontbijtmand</option>
+                      <option value="">Faciliteiten voor groepen</option>
+                      <option value="">Organische boerderij</option>
+                      <option value="">Een warm onthaal</option>
+                      <option value="">Trekkertochten</option>
+                      <option value="">knuffelschuur</option>
+                    <optgroup label="omgeving">
+                      <option value="">Bij het bos</option>
+                      <option value="">In de buurt van een rivier</option>
+                      <option value="">Met een weids uitzicht</option>
+                      <option value="">In de buurt van de kust</option>
+                    </optgroup>
+                  </select>
+                  </fieldset>
+                  <fieldset>
+                    <select>
+                    <optgroup label="Dieren">
+                      <option value="" disabled="disabled">filter op..</option>
+                      <option value="">Huisdieren toegestaan</option>
+                      <option value="">Melkvee Boerderij</option>
+                      <option value="">Paarden</option>
+                      <option value="">Schaapjes</option>
+                      <option value="">Prive Konijn</option>
+                      <option value="">Geitjes</option>
+                    </optgroup>
+                    <optgroup label="Faciliteiten">
+                      <option value="">Hot Tub</option>
+                      <option value="">Ontbijtmand</option>
+                      <option value="">Faciliteiten voor groepen</option>
+                      <option value="">Organische boerderij</option>
+                      <option value="">Een warm onthaal</option>
+                      <option value="">Trekkertochten</option>
+                      <option value="">knuffelschuur</option>
+                    <optgroup label="omgeving">
+                      <option value="">Bij het bos</option>
+                      <option value="">In de buurt van een rivier</option>
+                      <option value="">Met een weids uitzicht</option>
+                      <option value="">In de buurt van de kust</option>
+                    </optgroup>
+                  </select>
+                  </fieldset>
+                </form> -->
+
+              </div>
+            </li>
+          </ul>
+      </div>
+    </div>
+
+    <footer>
+      <nav class="navigationport navigationland">
+        <ul>
+          <li><a href="">Brochure aanvragen</a></li>
+          <li><a href="">Neem contact op</a></li>
+          <li><a href="">Op de boerderij</a></li>
+          <li><a href="">Sitemap</a></li>
+          <li><a href="">Wijzig land en taal</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  
+
+  <script type="text/javascript" src="js/swipe.js"></script>
+  <script type="text/javascript" src="js/min.swipe.js"></script>
+  <script src='js/swipe.js'></script>
+  <script>
+  new Swipe(document.getElementById('slider'));
+  new Swipe(document.getElementById('slider2'));
+  var slider3 = new Swipe(document.getElementById('slider3'));
+  var slider4 = new Swipe(document.getElementById('slider4'));
+  </script>
+
+  <!-- scripts concatenated and minified via ant build script -->
+  <script src="js/helper.js"></script>
+  <!-- end concatenated and minified scripts-->
+
+  <!-- <script src="https://getfirebug.com/firebug-lite.js"></script> -->
+
+
+
+</body>
+</html>
